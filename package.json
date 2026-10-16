@@ -17,7 +17,10 @@
     "dashboard": "node src/dashboard-server.js",
     "uniquify": "node src/cli.js uniquify",
     "video-info": "node src/cli.js video-info",
-    "autodownload": "node autodownload/watcher.js"
+    "autodownload": "node autodownload/watcher.js",
+    "flow:login": "node src/cli.js flow-login",
+    "flow:generate": "node src/cli.js flow-generate",
+    "stitch": "node src/cli.js stitch"
   },
   "keywords": [
     "automation",

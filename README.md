@@ -49,6 +49,9 @@ local control plane.
 - Scan/download TikTok profiles into `autodownload/profile_downloads`.
 - Run FFmpeg-based video uniquification from the dashboard or CLI, with an
   optional user-provided logo overlay.
+- Generate scene-by-scene episodes in Google Flow (Veo), download the clips,
+  and stitch them into a vertical Short. See
+  [docs/google-flow-episodes.md](docs/google-flow-episodes.md).
 
 ## Requirements
 
@@ -177,6 +180,9 @@ npm run daemon
 npm run uniquify
 npm run video-info -- --video "C:\path\video.mp4"
 npm run autodownload
+npm run flow:login
+npm run flow:generate -- --episode content/kids-shorts/ep01-pip-rainbow-colors.flow.json
+npm run stitch -- --episode content/kids-shorts/ep01-pip-rainbow-colors.flow.json
 ```
 
 Notes:
@@ -187,6 +193,8 @@ Notes:
 - Instagram and YouTube posting are managed through the dashboard.
 - `uniquify` and `video-info` require FFmpeg and ffprobe.
 - `autodownload` requires yt-dlp.
+- `flow:generate` and `stitch` require FFmpeg; see
+  [docs/google-flow-episodes.md](docs/google-flow-episodes.md).
 
 ## Development
 
@@ -208,6 +216,8 @@ including:
 
 - `.env`
 - `.profiles/`
+- `.profile-flow/`
+- `output/`
 - `.scheduler-state/`
 - `*-state.json`
 - `queue/`

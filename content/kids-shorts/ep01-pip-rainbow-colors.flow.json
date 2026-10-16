@@ -1,0 +1,45 @@
+{
+  "id": "ep01-pip-rainbow-colors",
+  "title": "Find the Rainbow Colors with Pip! Learn Colors for Toddlers #Shorts",
+  "description": "Help Pip the little cloud find all the colors of the rainbow!\nRed, orange, yellow, green, blue and purple - shout out each color with Pip!\nA gentle learning video for toddlers and preschoolers.\n\n#Shorts #LearnColors #Toddlers #Preschool #KidsLearning",
+  "character": "Pip, a small round fluffy white cloud with big friendly brown eyes, rosy pink cheeks, a tiny happy smile, two little puffy cloud arms, and a soft warm glow around its edges",
+  "style": "Soft 3D storybook animation, rounded shapes, bright pastel colors, gentle sunny lighting, clean uncluttered background, cheerful calm mood, vertical 9:16 framing. No dialogue, no speech, no on-screen text, no flashing lights. Gentle ambient sound only.",
+  "scenes": [
+    {
+      "name": "Hook",
+      "prompt": "{character} pops into view in the center of a clear blue sky with small puffs of sparkle and waves hello at the camera with one puffy arm. Quick gentle zoom-in on Pip, then hold. {style}"
+    },
+    {
+      "name": "Red",
+      "prompt": "{character} floats beside a leafy green apple tree in a sunny garden, looking curiously at one big shiny red apple hanging on a branch. Slow pan from Pip to the apple and back to Pip. {style}"
+    },
+    {
+      "name": "Orange",
+      "prompt": "{character} floats over a flower meadow while a bright orange butterfly flutters in a gentle circle around Pip's head. The camera follows the butterfly. {style}"
+    },
+    {
+      "name": "Yellow",
+      "prompt": "{character} floats next to a giant smiling yellow sunflower that sways happily in the breeze. Low angle looking up at the tall sunflower, then tilt to Pip. {style}"
+    },
+    {
+      "name": "Green",
+      "prompt": "{character} floats above a calm pond where a cute cartoon green frog sits on a lily pad and gives a little hop. Medium shot. {style}"
+    },
+    {
+      "name": "Blue",
+      "prompt": "{character} flies through the sky next to a cheerful little bluebird flying alongside. Side-tracking shot moving left to right. {style}"
+    },
+    {
+      "name": "Purple",
+      "prompt": "{character} floats over a field of purple lavender flowers gently swaying in the breeze. Slow push-in over the flowers toward Pip. {style}"
+    },
+    {
+      "name": "Payoff",
+      "prompt": "{character} cheers with both puffy arms raised as a big complete rainbow of red, orange, yellow, green, blue and purple arcs across a bright blue sky behind Pip, with gentle sparkles. Camera pulls back to reveal the full rainbow. {style}"
+    },
+    {
+      "name": "Outro",
+      "prompt": "{character} sits happily on top of a rainbow, smiling and waving goodbye at the camera. Slight slow zoom-out. {style}"
+    }
+  ]
+}
