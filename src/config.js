@@ -92,6 +92,13 @@ const config = {
   uniquifyIntroSeconds: Number(process.env.UNIQUIFY_INTRO_SECONDS || 1),
   uniquifyEndHoldSeconds: Number(process.env.UNIQUIFY_END_HOLD_SECONDS || 0.4),
 
+  // Google Flow (Veo) scene generation
+  flowUrl: process.env.FLOW_URL || "https://labs.google/fx/tools/flow",
+  flowProjectUrl: (process.env.FLOW_PROJECT_URL || "").trim(),
+  flowProfileDir: path.resolve(projectRoot, process.env.FLOW_PROFILE_DIR || ".profile-flow"),
+  flowOutputDir: path.resolve(projectRoot, process.env.FLOW_OUTPUT_DIR || "output/episodes"),
+  flowGenerationTimeoutMs: Number(process.env.FLOW_GENERATION_TIMEOUT_MS || 600000),
+
   // Auto-download pipeline
   autoDownload: {
     channel: process.env.WATCH_CHANNEL || "",

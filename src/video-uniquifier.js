@@ -557,4 +557,5 @@ module.exports = {
   uniquifyDirectory,
   checkFfmpeg,
   getVideoInfo,
+  runFfmpeg,
 };

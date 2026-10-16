@@ -8,6 +8,7 @@ node_modules/
 .profile/
 .profile-instagram/
 .profile-youtube/
+.profile-flow/
 .profiles/
 
 # Scheduler and runtime state
@@ -18,6 +19,7 @@ node_modules/
 queue/*/*/posted/
 queue/*/*/failed/
 queue/uniquify-output/
+output/
 
 # Auto-download runtime data
 autodownload/downloads/
